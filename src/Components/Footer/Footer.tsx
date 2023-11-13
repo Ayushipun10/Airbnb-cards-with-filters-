@@ -10,7 +10,7 @@ function Footer() {
       <div className="container">
         <div className="grid">
           <div className="column">
-            <h3 className="footer-heading">Support</h3>
+            <h4 className="footer-heading">Support</h4>
             <ul>
               <li>
                 <a href="#">Help Center</a>
@@ -30,7 +30,7 @@ function Footer() {
             </ul>
           </div>
           <div className="column">
-            <h3 className="footer-heading">Hosting</h3>
+            <h4 className="footer-heading">Hosting</h4>
             <ul>
               <li>
                 <a href="#">Airbnb your home</a>
@@ -50,7 +50,7 @@ function Footer() {
             </ul>
           </div>
           <div className="column">
-            <h3 className="footer-heading">Airbnb</h3>
+            <h4 className="footer-heading">Airbnb</h4>
             <ul>
               <li>
                 <a href="#">Newsroom</a>

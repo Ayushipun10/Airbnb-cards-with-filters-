@@ -14,14 +14,19 @@ type CardData = {
   title: string;
   rating: number;
   desc: string;
-  property_type : string[]
   checkInDate: string;
   checkOutDate: string;
   price: string;
+  owner: string;
+  property_type: string[];
   total_before_taxes: string;
+}[];
+
+type CardProps = {
+  data: CardData,
   selectedCategory: string | null;
   displayBeforeTaxes: boolean;
-}[];
+}
 
 function formatDates(checkInDate: string, checkOutDate: string) {
   const checkInDateParts = checkInDate.split("-");
@@ -44,12 +49,15 @@ function formatDates(checkInDate: string, checkOutDate: string) {
   }
 }
 
-function Card({ data }: { data: CardData }) {
-  const [likedStates, setLikedStates] = useState(
+function Card({data, selectedCategory, displayBeforeTaxes}: CardProps) {
+  const [likedStates, setLikedStates] = useState<boolean[]>(
     Array(data.length).fill(false)
   );
 
-  // const [hoveredBook, setHoveredBook] = useState<number | null>(null);
+  const filteredCards = selectedCategory
+    ? data.filter((card) => card.property_type.includes(selectedCategory))
+    : data;
+
 
   const handleLikeClick = (index: number) => {
     const newLikedStates = [...likedStates];
@@ -59,7 +67,7 @@ function Card({ data }: { data: CardData }) {
 
   return (
     <div className="cards-flex">
-      {data.map((card, index) => (
+      {filteredCards.map((card, index) => (
         <div className="card-box" key={index}>
           <div className="heart-icon" onClick={() => handleLikeClick(index)}>
             {likedStates[index] ? (
@@ -68,7 +76,7 @@ function Card({ data }: { data: CardData }) {
               <FavoriteIcon style={{ color: "lightgrey" }} />
             )}
           </div>
-          <BookIcon />
+          <BookIcon ownerImg={card.owner} />
           <Swiper
             slidesPerView={1}
             spaceBetween={15}
@@ -93,15 +101,12 @@ function Card({ data }: { data: CardData }) {
             </div>
           </div>
           <div className="about-card">
-            <p
-              className="line"
-              style={{ margin: 0, color: "var(--font-grey)" }}
-            >
+            <p className="line" style={{ margin: 0 }}>
               {card.desc}
             </p>
             <p
               className="line"
-              style={{ marginTop: "-8px", color: "var(--font-grey)" }}
+              style={{ marginTop: "-8px" }}
             >
               {formatDates(card.checkInDate, card.checkOutDate)}
             </p>
@@ -112,7 +117,7 @@ function Card({ data }: { data: CardData }) {
                 color: "var(--black)",
               }}
             >
-              <span className="line" style={{ fontWeight: "600" }}>
+              <span style={{ fontWeight: "600" }}>
                 ₹{card.price}
               </span>{" "}
               night
