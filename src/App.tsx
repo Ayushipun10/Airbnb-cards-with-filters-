@@ -1,5 +1,5 @@
 import './App.css';
-import Cards from "./Components/Cards";
+import Cards from "./Components/Cards/Cards";
 import data from "./card-data.json";
 import Footer from './Components/Footer/Footer';
 import React, { useState } from 'react';
