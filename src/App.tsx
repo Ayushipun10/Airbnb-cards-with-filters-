@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Cards from "./Components/Cards";
+import data from "./card-data.json";
+import Footer from './Components/Footer/Footer';
+import React, { useState } from 'react';
+import Categories from './Components/Navbar/Categories';
 
 function App() {
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [displayBeforeTaxes, setDisplayBeforeTaxes] = useState<boolean>(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Categories setSelectedCategory={setSelectedCategory}
+       setDisplayBeforeTaxes={setDisplayBeforeTaxes}
+       cardsList={data}  />
+   <Cards data={data}
+   selectedCategory={selectedCategory} 
+   displayBeforeTaxes={displayBeforeTaxes}/>
+   <Footer />
+   </>
   );
 }
 
