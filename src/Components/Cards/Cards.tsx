@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
-import BookIcon from "../Components/BookIcon/BookIcon";
+import BookIcon from "../BookIcon/BookIcon";
 
 type CardData = {
   imgSrc: string[];
@@ -76,7 +76,9 @@ function Card({data, selectedCategory, displayBeforeTaxes}: CardProps) {
               <FavoriteIcon style={{ color: "lightgrey" }} />
             )}
           </div>
-          <BookIcon ownerImg={card.owner} />
+          {selectedCategory === "Rooms" && (
+            <BookIcon ownerImg={card.owner} />
+          )}
           <Swiper
             slidesPerView={1}
             spaceBetween={15}
@@ -118,7 +120,7 @@ function Card({data, selectedCategory, displayBeforeTaxes}: CardProps) {
               }}
             >
               <span style={{ fontWeight: "600" }}>
-                ₹{card.price}
+                ₹{displayBeforeTaxes ? card.total_before_taxes : card.price}
               </span>{" "}
               night
             </p>
