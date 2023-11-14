@@ -17,10 +17,14 @@ const CategoryBox = ({
 }: CategoryBoxProps) => {
   return (
     <div
-      className="images-box-styling"
-      onClick={onClick} // Add onClick here
+      className={`images-box-styling ${selected ? "selected" : ""}`}
+      onClick={onClick}
     >
-      {/* <Icon /> */}
+    {/* // <div
+    //   className="images-box-styling"
+    //   onClick={onClick} // Add onClick here
+    // > */}
+      
       
       <img src={Icon} className="links-img" />
       <div className="label-text-styling">{label}</div>
