@@ -26,7 +26,8 @@ type CardProps = {
   data: CardData,
   selectedCategory: string | null;
   displayBeforeTaxes: boolean;
- filterAnyState: CardData
+ filterAnyState: CardData,
+ navFilterData: CardData
 }
 
 function formatDates(checkInDate: string, checkOutDate: string) {
@@ -50,15 +51,26 @@ function formatDates(checkInDate: string, checkOutDate: string) {
   }
 }
 
-function Card({data, selectedCategory, displayBeforeTaxes, filterAnyState}: CardProps) {
+function Card({data, selectedCategory, displayBeforeTaxes, filterAnyState, navFilterData}: CardProps) {
   const [likedStates, setLikedStates] = useState<boolean[]>(
     Array(data.length).fill(false)
   );
-  const cardsToUse = filterAnyState.length > 0 ? filterAnyState : data;
+
+  const cardsToUse =
+    filterAnyState.length > 0
+      ? filterAnyState
+      : navFilterData.length > 0
+      ? navFilterData
+      : data;
 
   const filteredCards = selectedCategory
     ? cardsToUse.filter((card) => card.property_type.includes(selectedCategory))
     : cardsToUse;
+  // const cardsToUse = filterAnyState.length > 0 ? filterAnyState : data;
+
+  // const filteredCards = selectedCategory
+  //   ? cardsToUse.filter((card) => card.property_type.includes(selectedCategory))
+  //   : cardsToUse;
 
   // const filteredCards = selectedCategory
   //   ? data.filter((card) => card.property_type.includes(selectedCategory))

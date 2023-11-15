@@ -90,11 +90,13 @@ import "./Category.css";
 import { CiCircleChevLeft,CiCircleChevRight } from "react-icons/ci";
 import { CiSliderHorizontal } from "react-icons/ci";
 import FilterModal from "../Filters/FilterModal";
+import data from "../../card-data.json"
 
 interface CategoriesProps {
   setSelectedCategory: (category: string | null) => void;
   setDisplayBeforeTaxes: React.Dispatch<React.SetStateAction<boolean>>;
   cardsList: any[];
+  setNavFilterData: any;
   
 }
 
@@ -102,6 +104,7 @@ const Categories = ({
   setSelectedCategory,
   setDisplayBeforeTaxes,
   cardsList,
+  setNavFilterData
 }: CategoriesProps) => {
   const [displayBeforeTaxes, setDisplayBeforeTaxesLocal] =
     useState<boolean>(false);
@@ -188,6 +191,7 @@ const Categories = ({
           header="Filters"
           heading1="Price Range"
           heading2="Rooms and beds"
+          setNavFilterData={setNavFilterData}
           // onApplyFilter={}
         />
       )}

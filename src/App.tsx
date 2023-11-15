@@ -10,6 +10,8 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [displayBeforeTaxes, setDisplayBeforeTaxes] = useState<boolean>(false);
   const [filterAnyState, setFilterAnyState] = useState<[]>([])
+  const [ navFilterData, setNavFilterData] = useState<[]>([])
+ 
 
   return (
     
@@ -19,12 +21,14 @@ function App() {
    <Categories setSelectedCategory={setSelectedCategory}
        setDisplayBeforeTaxes={setDisplayBeforeTaxes}
        cardsList={data} 
+       setNavFilterData = {setNavFilterData}
       
         />
    <Cards data={data}
    selectedCategory={selectedCategory} 
    displayBeforeTaxes={displayBeforeTaxes}
    filterAnyState={filterAnyState}
+   navFilterData= {navFilterData}
    />
    <Footer />
    </>

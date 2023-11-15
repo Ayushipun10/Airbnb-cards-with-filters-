@@ -37,6 +37,7 @@ interface FilterModalProps {
   header: string;
   heading1: string;
   heading2: string;
+  setNavFilterData: any
   // onApplyFilter : (filters : FilterType) => void
 }
 
@@ -46,6 +47,7 @@ const FilterModal: React.FC<FilterModalProps> = ({
   header,
   heading1,
   heading2,
+  setNavFilterData
   // onApplyFilter
 }) => {
 
@@ -603,7 +605,7 @@ const FilterModal: React.FC<FilterModalProps> = ({
         combine = combine && filter9;
         // return filter9
       }
-
+      
       return result && combine;
     });
 
@@ -611,8 +613,11 @@ const FilterModal: React.FC<FilterModalProps> = ({
 
     console.log(filteredData);
     // onApplyFilter(filteredData)
+    setNavFilterData(filteredData);
     onClose()
+    
     return filteredData;
+    
     
   };
 
