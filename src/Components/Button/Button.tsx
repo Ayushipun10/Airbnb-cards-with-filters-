@@ -4,9 +4,9 @@ import React, { ButtonHTMLAttributes } from 'react';
 interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'onClick'> {
     // text ?: string;
     className ? : string;
-  count: number | string;
+  count:  string;
   selected?: boolean;
-  onClick?: (count : number | string) => void;
+  onClick?: ( count : string ) => void;
 }
  
 const Button: React.FC<ButtonProps> = ({ className, count, selected = false, onClick, ...props }) => {
@@ -18,8 +18,9 @@ const Button: React.FC<ButtonProps> = ({ className, count, selected = false, onC
     }
   return (
     <button className={`button ${selected ? 'selected' : ''}`} onClick={handleClick} {...props}>
-      {/* {count}  */}
-      {typeof count === 'number' ? `${count}`: count}
+      {/* <button className={`button ${selected ? 'selected' : ''}`} onClick={()=> onClick(count)} >  */}
+      {count} 
+      {/* {typeof count === 'number' ? `${count}`: count} */}
     </button>
   );
 };

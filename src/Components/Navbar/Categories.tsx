@@ -89,6 +89,7 @@ import { categories } from "../Utils/Label";
 import "./Category.css";
 import { CiCircleChevLeft,CiCircleChevRight } from "react-icons/ci";
 import { CiSliderHorizontal } from "react-icons/ci";
+import FilterModal from "../Filters/FilterModal";
 
 interface CategoriesProps {
   setSelectedCategory: (category: string | null) => void;
@@ -109,7 +110,11 @@ const Categories = ({
     null
   );
 
- 
+  const data = [
+    0, 0, 5, 5, 0, 10, 20, 0, 0, 40, 20, 50, 90, 60, 0, 0, 10, 70, 100, 120, 150, 95, 60, 105,75, 100, 70, 10, 0, 0, 20, 40, 20, 10, 5, 5,
+    0, 0, 5, 0, 0,
+  ]; // Example data array
+  const [isFilterModalOpen, setIsFilterModalOpen] = useState(false);
 
   const handleToggleBeforeTaxes = () => {
     setDisplayBeforeTaxesLocal(!displayBeforeTaxes);
@@ -130,8 +135,13 @@ const Categories = ({
     setSelectedCategory(category);
   };
 
-  console.log("consoling", setSelectedCategoryLocal);
-  console.log("consoling1", setSelectedCategory);
+  const handleFilterButtonClick = () => {
+    setIsFilterModalOpen(true);
+  };
+ 
+  const closeFilterModal = () => {
+    setIsFilterModalOpen(false);
+  };
   
   return (
     <div className="categories-container">
@@ -170,7 +180,17 @@ const Categories = ({
 
       <div className="filters-button">
           {/* Add your filter button here */}
-          <button className="filters-button-styling"><CiSliderHorizontal/>Filters</button>
+          <button className="filters-button-styling" onClick={handleFilterButtonClick}><CiSliderHorizontal/>Filters</button>
+          {isFilterModalOpen && (
+         <FilterModal
+          onClose={closeFilterModal}
+          data={data}
+          header="Filters"
+          heading1="Price Range"
+          heading2="Rooms and beds"
+          // onApplyFilter={}
+        />
+      )}
         </div>
 
         <div className="toggle-before-taxes">

@@ -32,15 +32,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
 
     },
   
@@ -74,15 +129,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -119,15 +229,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -162,15 +327,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -201,15 +421,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -242,15 +517,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -283,15 +613,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -326,15 +711,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -369,15 +809,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -409,14 +904,73 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        "Flat",
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
-        "Dryer",
-        "Air Conditioning"
+        "Dryer"
+        
+
+    ],
+    "features" : [
        
+        "Gym",
+        "BBQ grill",
+        "Breakfast",
+        "Indoor fireplace",
+        "Smoking allowed"
+      ],
+      "view" : ["Waterfront"],
+      "safety" : [
+        "Smoke alarm", 
+        "Carbon monoxide alarm"
+    ],
+    "bookingOptions" : [
+        "Instant Booking",
+        "Self check-in",
+        "Allows pets"
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance",
+        "Guest entrance wider than 32 inches (81 centimetres)",
+        "Accessible parking spot",
+        "Step-free path to the guest entrance"
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        "Step-free bathroom access",
+        "Bathroom entrance wider than 32 inches (81 centimetres)",
+        "Shower grab bar",
+        "Toilet grab bar",
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
        
+        "Bengali",
+        "Thai",
+        "Punjabi",
+        "Greek"
+        
     ]
     },
   
@@ -450,15 +1004,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -491,15 +1100,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -532,15 +1196,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -572,15 +1291,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
   
     {
@@ -613,15 +1387,70 @@
         "infants":2,
         "pets": 2
       },
-      "essentials": [
+      "place": [
+                
+        "Rooms",
+        "Entire home"
+    ],
+    "bedrooms" : "4",
+    "beds" : "4",
+    "bathrooms" : "3",
+    "typeOfProperty" : [
+        "House",
+        
+        "Guest House",
+        "Hotel"
+    ],
+    
+    "essentials": [
         "Wifi",
         "Kitchen",
         "Washing Machine",
         "Dryer",
         "Air Conditioning"
-       
-       
+        
+        
+    ],
+    "features" : [
+        "Pool",
+        "Hot tub",
+        "Free parking",
+        "EV charger"
+      ],
+      "view": ["Waterfront"],
+      "safety" : [
+        "Smoke alarm"
+        
+    ],
+    "bookingOptions" : [
+        "Instant Booking"
+        
+    ],
+    "guestAccessibility" : [
+        "Step-free guest entrance"
+
+    ],
+    "bedroomFeatures" : [
+        "Step-free bedroom access",
+        "Bedroom entrance wider than 32 inches (81 centimetres)"
+    ],
+    "bathroomFeatures" : [
+        
+        "Step-free shower",
+        "Shower or bath chair"
+    ],
+    "equipement" : "Ceiling or mobile hoist",
+    "language" : [
+        "English",
+        
+        "Hindi",
+        
+        "Bengali",
+        
+        "Punjabi"
+        
     ]
+
     },
     {
       "rating": 5,
@@ -658,20 +1487,76 @@
       "total_before_taxes": "100000",
   
       "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg3ECfhNnwn30E2r5J-Sb2UphwWfflyqgeA&usqp=CAU",
-      "essentials": [
-        "Wifi",
-        "Kitchen",
-        "Washing Machine",
-        "Dryer",
-        "Air Conditioning"
-       
-       
-    ],
+      
     "guests": {
       "adults": 3,
       "children": 4,
       "infants":2,
       "pets": 2
-    }
+    },
+    "place": [
+                
+      "Rooms",
+      "Entire home"
+  ],
+  "bedrooms" : "4",
+  "beds" : "4",
+  "bathrooms" : "3",
+  "typeOfProperty" : [
+      "House",
+      
+      "Guest House",
+      "Hotel"
+  ],
+  
+  "essentials": [
+      "Wifi",
+      "Kitchen",
+      "Washing Machine",
+      "Dryer",
+      "Air Conditioning"
+      
+      
+  ],
+  "features" : [
+      "Pool",
+      "Hot tub",
+      "Free parking",
+      "EV charger"
+    ],
+    "view": ["Waterfront"],
+    "safety" : [
+      "Smoke alarm"
+      
+  ],
+  "bookingOptions" : [
+      "Instant Booking"
+      
+  ],
+  "guestAccessibility" : [
+      "Step-free guest entrance"
+
+  ],
+  "bedroomFeatures" : [
+      "Step-free bedroom access",
+      "Bedroom entrance wider than 32 inches (81 centimetres)"
+  ],
+  "bathroomFeatures" : [
+      
+      "Step-free shower",
+      "Shower or bath chair"
+  ],
+  "equipement" : "Ceiling or mobile hoist",
+  "language" : [
+      "English",
+      
+      "Hindi",
+      
+      "Bengali",
+      
+      "Punjabi"
+      
+  ]
+
     }
   ]
