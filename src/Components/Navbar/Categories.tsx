@@ -81,7 +81,8 @@
 //   );
 // };
 
-// export default Categories;
+// // export default Categories;
+
 import React, { useState } from "react";
 import CategoryBox from "./CategoryBox";
 import { categories } from "../Utils/Label";
@@ -93,6 +94,7 @@ interface CategoriesProps {
   setSelectedCategory: (category: string | null) => void;
   setDisplayBeforeTaxes: React.Dispatch<React.SetStateAction<boolean>>;
   cardsList: any[];
+  
 }
 
 const Categories = ({
@@ -106,6 +108,8 @@ const Categories = ({
   const [selectedCategory, setSelectedCategoryLocal] = useState<string | null>(
     null
   );
+
+ 
 
   const handleToggleBeforeTaxes = () => {
     setDisplayBeforeTaxesLocal(!displayBeforeTaxes);
@@ -125,6 +129,10 @@ const Categories = ({
     setSelectedCategoryLocal(category);
     setSelectedCategory(category);
   };
+
+  console.log("consoling", setSelectedCategoryLocal);
+  console.log("consoling1", setSelectedCategory);
+  
   return (
     <div className="categories-container">
       <div className="slider-icons-container">
@@ -181,3 +189,4 @@ const Categories = ({
 };
 
 export default Categories;
+

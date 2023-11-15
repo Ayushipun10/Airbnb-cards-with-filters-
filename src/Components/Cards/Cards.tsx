@@ -26,6 +26,7 @@ type CardProps = {
   data: CardData,
   selectedCategory: string | null;
   displayBeforeTaxes: boolean;
+ filterAnyState: CardData
 }
 
 function formatDates(checkInDate: string, checkOutDate: string) {
@@ -49,14 +50,19 @@ function formatDates(checkInDate: string, checkOutDate: string) {
   }
 }
 
-function Card({data, selectedCategory, displayBeforeTaxes}: CardProps) {
+function Card({data, selectedCategory, displayBeforeTaxes, filterAnyState}: CardProps) {
   const [likedStates, setLikedStates] = useState<boolean[]>(
     Array(data.length).fill(false)
   );
+  const cardsToUse = filterAnyState.length > 0 ? filterAnyState : data;
 
   const filteredCards = selectedCategory
-    ? data.filter((card) => card.property_type.includes(selectedCategory))
-    : data;
+    ? cardsToUse.filter((card) => card.property_type.includes(selectedCategory))
+    : cardsToUse;
+
+  // const filteredCards = selectedCategory
+  //   ? data.filter((card) => card.property_type.includes(selectedCategory))
+  //   : data;
 
 
   const handleLikeClick = (index: number) => {
@@ -67,6 +73,7 @@ function Card({data, selectedCategory, displayBeforeTaxes}: CardProps) {
 
   return (
     <div className="cards-flex">
+
       {filteredCards.map((card, index) => (
         <div className="card-box" key={index}>
           <div className="heart-icon" onClick={() => handleLikeClick(index)}>

@@ -25,7 +25,23 @@
       "location": "uk",
       "property_type": ["Arctic", "Rooms", "OMG!"],
       "total_before_taxes": "100000",
-      "owner": "https://images.hindustantimes.com/img/2022/11/05/550x309/Elon_Musk_1667622395019_1667622395217_1667622395217.jpg"
+      "owner": "https://images.hindustantimes.com/img/2022/11/05/550x309/Elon_Musk_1667622395019_1667622395217_1667622395217.jpg",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
+
     },
   
     {
@@ -51,7 +67,22 @@
       "property_type": ["Arctic", "Rooms"],
       "total_before_taxes": "100000",
   
-      "owner": "https://i.guim.co.uk/img/media/9b089d0d5d0939056d2be35001310adc0f355895/946_287_3140_1884/master/3140.jpg?width=620&dpr=2&s=none"
+      "owner": "https://i.guim.co.uk/img/media/9b089d0d5d0939056d2be35001310adc0f355895/946_287_3140_1884/master/3140.jpg?width=620&dpr=2&s=none",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -81,7 +112,22 @@
       "property_type": ["Arctic", "Rooms", "Design"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWyOWHGSwMnO8F-XJKrMd565vZoC4WD7SLSw&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWyOWHGSwMnO8F-XJKrMd565vZoC4WD7SLSw&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -109,7 +155,22 @@
       "property_type": ["Arctic", "Rooms", "Farms"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBxcos1JFiplBmS2iFNieJdXB0e-cgNXDNw&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBxcos1JFiplBmS2iFNieJdXB0e-cgNXDNw&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -133,7 +194,22 @@
       "property_type": ["Arctic", "Rooms", "Amazing pools"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKJPxxwPeNvISnBbZsZHe887Ws0FnrL7o0w&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKJPxxwPeNvISnBbZsZHe887Ws0FnrL7o0w&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -159,7 +235,22 @@
       "property_type": ["Arctic", "Rooms", "Tiny homes"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSB-erdLpMkJLEb38wkio0bLDANwQ6A9qdAg&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSB-erdLpMkJLEb38wkio0bLDANwQ6A9qdAg&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -185,7 +276,22 @@
       "property_type": ["Arctic", "Rooms", "Lakefront"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1U6C2anDWNumFX4zHefJ05j1KLD5ln2FDA&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT1U6C2anDWNumFX4zHefJ05j1KLD5ln2FDA&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -213,7 +319,22 @@
       "property_type": ["Arctic", "Rooms", "Treehouses"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSunH0Cm5N9wOaTDolHeadWdiDn7F-jJA9LMw&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSunH0Cm5N9wOaTDolHeadWdiDn7F-jJA9LMw&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -241,7 +362,22 @@
       "property_type": ["Arctic", "Rooms", "National parks"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3f3a-tFxo1pz4IbdSgVsuFi54HgBtriWTtA&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3f3a-tFxo1pz4IbdSgVsuFi54HgBtriWTtA&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -266,7 +402,22 @@
       "location": "italy",
       "property_type": ["Arctic", "Rooms", "Trending"],
       "total_before_taxes": "100000",
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYM8hKbJ0CWZWoDN7XAP9W3kXJx6uYE8PPHPM7freggHpRuebkHj0_W2V9Px2TQUR12g&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYM8hKbJ0CWZWoDN7XAP9W3kXJx6uYE8PPHPM7freggHpRuebkHj0_W2V9Px2TQUR12g&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -292,7 +443,22 @@
       "property_type": ["Arctic", "Rooms", "Countryside"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXOtX-_nT_lyxUqmksu6S5l5kcyFakdbrVWQ&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXOtX-_nT_lyxUqmksu6S5l5kcyFakdbrVWQ&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -315,10 +481,25 @@
       "title": "Gurugram, India",
   
       "location": "india",
-      "property_type": ["Arctic", "Rooms"],
+      "property_type": ["Arctic", "Rooms", "Amazing Views"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEjkf3QtZgpT6YeMmf8PaIKsXYzGPkGCobPg&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEjkf3QtZgpT6YeMmf8PaIKsXYzGPkGCobPg&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -344,7 +525,22 @@
       "property_type": ["Arctic", "Rooms"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaEITcjJhhq0mCU-OrIIqqt94CcjUxR50mnA&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaEITcjJhhq0mCU-OrIIqqt94CcjUxR50mnA&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -369,7 +565,22 @@
       "location": "india",
       "property_type": ["Arctic", "Rooms"],
       "total_before_taxes": "100000",
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVO19OAlqRhHBuz5BaUMu5VEbB5r5CSxKYvA&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVO19OAlqRhHBuz5BaUMu5VEbB5r5CSxKYvA&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
   
     {
@@ -395,7 +606,22 @@
       "property_type": ["Arctic", "Rooms"],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-nZle5TU8k51df2V-NPakoHK6g-5dcpepw&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc-nZle5TU8k51df2V-NPakoHK6g-5dcpepw&usqp=CAU",
+      "guests": {
+        "adults": 3,
+        "children": 4,
+        "infants":2,
+        "pets": 2
+      },
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ]
     },
     {
       "rating": 5,
@@ -431,6 +657,21 @@
       ],
       "total_before_taxes": "100000",
   
-      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg3ECfhNnwn30E2r5J-Sb2UphwWfflyqgeA&usqp=CAU"
+      "owner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg3ECfhNnwn30E2r5J-Sb2UphwWfflyqgeA&usqp=CAU",
+      "essentials": [
+        "Wifi",
+        "Kitchen",
+        "Washing Machine",
+        "Dryer",
+        "Air Conditioning"
+       
+       
+    ],
+    "guests": {
+      "adults": 3,
+      "children": 4,
+      "infants":2,
+      "pets": 2
+    }
     }
   ]
