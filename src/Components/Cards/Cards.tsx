@@ -133,7 +133,7 @@ function Card({data, selectedCategory, displayBeforeTaxes, filterAnyState, navFi
             </p>
             <p
               style={{
-                marginTop: "-8px",
+                marginTop: "-1px",
                 fontSize: "1rem",
                 color: "var(--black)",
               }}

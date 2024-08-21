@@ -6,9 +6,9 @@
 .categories-container {
   display: flex;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 6%;
   margin-right: 6%;
-  margin-left: 6%;
+  margin-left: 12%;
   margin-bottom: 1%;
 
 
@@ -66,7 +66,6 @@
 }
 
 .right-arrow {
-  margin-right: 1%;
   width: 20%;
  
 }
@@ -119,7 +118,7 @@
   border: 1.5px solid lightgrey;
   margin-left: 2%;
   border-radius: 10px;
-  width: 85%;
+  width: 22%;
   padding: 5px;
   font-size: 0.75rem;
   font-weight: 500;
@@ -130,7 +129,7 @@
   margin-right: 10px; /* Adjust as needed */
 }
 .display-before-taxes-text-div{
-  margin-right: 20px;
+  margin-right: 55px;
 }
 .slider-toggle {
   position: relative;
